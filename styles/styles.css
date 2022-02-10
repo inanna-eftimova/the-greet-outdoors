@@ -1,0 +1,8 @@
+@import 'header.css';
+@import 'content.css';
+@import 'footer.css';
+
+.content{
+  max-width: 1300px;
+  margin: 0 auto;
+}

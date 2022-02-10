@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.explore-world{
+  width: 500px;
+  margin: 60px auto;
+  color: azure;
+  text-align: center;
+}
+.explore-world-title{
+  margin-bottom: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 49px;
+}
+.explore-world-text{
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  line-height: 1.4;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  color: azure;
+  margin: 0 auto;
+}
+.card{
+  position: relative;
+  text-align: center;
+}
+.class-img{
+  width: 180px;
+  height: 200px;
+}
+.class-img img{
+  width: 100%;
+  height: 100%;
+}
+.card-text{
+  left: 24px;
+  position: absolute;
+  top: 115px;
+  box-shadow: 0px 2px 15px 4px white;
+  padding: 14px 0px;
+  height: 76px;
+  width: 133px;
+}
+.card-text h6{
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.card-text p{
+  margin: 10px;
+    font-size: 9px;
+}
+.journal{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  color: azure;
+  margin: 0 auto;
+}
+.journal-card{
+  margin: 0 30px 60px;
+}
+.journal-card-img{
+ width: 261px;
+ height: 150px;
+}
+.journal-card-img img{
+  width: 100%;
+  height: 100%;
+}
+.date{
+  font-size: 10px;
+  text-align: center;
+}
+.journal-card-content h6{
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0 0 0;
+}
+.content{
+  font-size: 12px;
+  text-align: center;
+}
